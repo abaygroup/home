@@ -27,8 +27,8 @@ const Index = () => {
                          <div className="heading">
                             <h1>{t("index.overview.head")}</h1>
                             {/* <p>Изучай тысячи курсы бесплатно и стань экспертом своей делой</p> */}
-                            <Link href={"/"}>
-                                <a className="link-get-started">{t("index.overview.link")}</a>
+                            <Link href={"http://mediahosting.vercel.app"} >
+                                <a target="_blank" rel="noopener noreferrer" className="link-get-started">{t("index.overview.link")}</a>
                             </Link>
                          </div>
                     </div>
@@ -102,8 +102,8 @@ const Index = () => {
                 <section className="get-started">
                     <div className="intro-get-started">
                         <h1>Готовы? Поехали!</h1>
-                        <Link href="">
-                            <a className='link-get-started'>Начинать бесплатно</a>
+                        <Link href={"http://mediahosting.vercel.app"}>
+                            <a target="_blank" rel="noopener noreferrer" className='link-get-started'>Начинать бесплатно</a>
                         </Link>
                     </div>
                 </section>
