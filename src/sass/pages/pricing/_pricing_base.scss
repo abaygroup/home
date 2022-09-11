@@ -1,0 +1,201 @@
+@import './detail';
+
+
+// ==========================================
+.pricing {
+    background-color: #33994e;
+
+    .intro-pricing {
+        padding: 100px 0;
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+
+        .heading {
+            min-width: 520px;
+            color: white;
+            margin-right: 20px;
+
+            h1 {
+                font-weight: 800;
+                font-size: 2.5rem;
+                padding-bottom: 20px;
+            }
+
+            .goto-premium {
+                margin-top: 40px;
+
+                a {
+                    display: inline-block;
+                    padding: 10px 30px;
+                    margin: 20px 10px;
+                    border-radius: 50px;
+                    border: 2px solid black;
+                    background-color: black;
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+
+                #other {
+                    background-color: transparent;
+                    color: white;
+                    border: 2px solid white;
+                }
+
+                small {
+                    display: block;
+                    line-height: 1.2;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .poster {
+            max-width: 420px;
+            overflow: hidden;
+            border-radius: 10px;
+        
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+/* ============================================= */
+.features {
+    width: 100%;
+    background-color: white;
+
+    .intro-features {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 50px 0;
+
+        h1 {
+            font-weight: 800;
+            font-size: 2.5rem;
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        .block {
+            padding-bottom: 50px;
+            display: flex;
+            justify-content: center;
+
+            .box {
+                padding: 10px;
+                text-align: center;
+
+                small {
+                    display: block;
+                    font-size: 14px;
+                    margin-top: 10px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+/* ============================================= */
+.premium-choice {
+    background: whitesmoke;
+
+    .intro-premium-choice {
+        padding: 50px 0;
+        width: 1024px;
+        margin: 0 auto;
+
+        h1 {
+            font-weight: 800;
+            font-size: 2.5rem;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        p {
+            text-align: center;
+            line-height: 1;
+        }
+
+        .block {
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+
+            .premium-pox {
+                width: 260px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px silver;
+                padding: 20px;
+                margin: 0 10px;
+                background-color: white;
+
+                .title {
+                    min-height: 140px;
+
+                    h3 {
+                        font-size: 1.5rem;
+                        padding-bottom: 10px;
+                    }
+
+                    p {
+                        text-align: left;
+                        padding-bottom: 10px;
+                    }
+                }
+
+                .ft {
+                    min-height: 220px;
+                    list-style: none;
+                    padding: 20px 0;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        padding: 5px 0;
+
+                        svg {
+                            min-width: 20px;
+                            margin-right: 5px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .begin {
+                    display: flex;
+                    flex-direction: column;
+
+                    small {
+                        color: dimgray;
+                    }
+
+                    a {
+                        display: block;
+                        padding: 10px 0;
+                        border-radius: 50px;
+                        background-color: black;
+                        color: white;
+                        text-decoration: none;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        text-align: center;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

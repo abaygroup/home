@@ -1,0 +1,121 @@
+.footer {
+    flex: 0;
+    background-color: black;
+    padding: 50px;
+
+    .intro-footer {
+        width: 1024px;
+        margin: 0 auto;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .company {
+            display: flex;
+            justify-content: space-between;
+            
+            .logo {
+                a {
+                    display: block;
+                    width: 200px;
+                }
+
+                small {
+                    color: silver;
+                    display: block;
+                    margin: 10px;
+                }
+            }
+
+            ul {
+                list-style: none;
+
+                h3 {
+                    font-size: 14px;
+                    padding-bottom: 10px;
+                    color: silver;
+                }
+
+                li {
+                    list-style: none;
+                    padding: 10px 0;
+                    font-size: 14px;
+
+                    a:hover {
+                        color: rgb(8, 197, 87);
+                    }
+                }
+            }
+
+            .social-media {
+                display: flex;
+                
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 5px;
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    font-size: 28px;
+                    background-color: #333;
+
+                    &:hover {
+                        color: rgb(8, 197, 87);
+                    }
+                }
+            }
+            
+        }
+
+        .conf {
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            .terms {
+                a {
+                    padding: 0 10px;
+                    font-size: 12px;
+                    color: silver;
+
+                    &:hover {
+                        color: rgb(8, 197, 87);
+                    }
+                }
+
+            }
+        }
+        
+        .copy {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                list-style: none;
+
+                li {
+                    color: silver;
+                    display: flex;
+                    align-items: center;
+                    padding-bottom: 5px;
+
+                    a {
+                        margin-left: 5px;
+                        font-size: 12px;
+                        color: silver;
+        
+                        &:hover {
+                            color: rgb(8, 197, 87);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ================================================ */

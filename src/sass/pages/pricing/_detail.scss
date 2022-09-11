@@ -1,0 +1,107 @@
+.pricing-plan-detail{
+    background-color: black;
+    margin-bottom: 20px;
+
+    .pricing-card {
+        max-width: 520px;
+        min-width: 280px;
+        margin: 0 auto;
+        padding: 50px 0;
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            padding: 10px 0;
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    color: rgb(8, 197, 87);
+                }
+            }
+        }
+
+        .card {
+            width: 100%;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .heading {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: #08c557;
+                padding: 20px;
+            }
+
+            .body {
+                padding: 20px;
+
+                .expires {
+                    font-weight: bold;
+
+                    .row {
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 10px;
+                    }
+                }
+
+                .fts {
+                    font-size: 12px;
+                    margin: 10px;
+                }
+            }
+            
+        }
+    }
+}
+
+.pricing-form {
+    width: 1024px;
+    margin: 50px auto;
+
+    form {
+        min-width: 300px;
+        max-width: 520px;
+        margin: 0 auto;
+
+        .form-group {
+            padding: 10px;
+
+            input {
+                width: 100%;
+                display: block;
+                padding: 10px 20px;
+                font-size: 16px;
+                font-weight: bold;
+                border-radius: 50px;
+                border: 1px solid silver;
+
+                &::placeholder {
+                    color: silver;
+                    font-weight: normal;
+                }
+
+                &[type='submit'] {
+                    cursor: pointer;
+                    background-color: black;
+                    border: 2px solid black;
+                    border-radius: 50px;
+                    color: white;
+                }
+
+                &[type='submit']:hover {
+                    transform: scale(1.1);
+                }
+                
+            }
+        }
+    }
+    
+}

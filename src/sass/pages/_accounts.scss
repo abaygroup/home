@@ -1,0 +1,223 @@
+.accounts-form {
+    
+    .intro-accounts-form {
+        width: 540px;
+        margin: 0 auto;
+        padding: 50px 0;
+
+        h3 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        form {
+            display: block;
+            width: 100%;
+            padding: 20px 0;
+
+            .form-group {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 10px;
+                
+                label {
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+
+                input {
+                    display: block;
+                    width: 100%;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    border: 1px solid silver;
+                    outline: none;
+
+                    &::placeholder {
+                        font-family: "Inter", sans-serif;
+                    }
+
+                    &:focus {
+                        border: 1px solid #08c557;
+                    }
+                }
+
+                input[type=submit] {
+                    background-color: #08c557;
+                    border: none;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: all .3s;
+                    border-radius: 50px;
+                    
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    padding: 10px;
+                    color: red;
+                    font-size: 14px;
+                    
+                    svg {
+                        min-width: 14px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            .submit {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+
+                .checked {
+                    display: flex;
+                    align-items: center;
+                    
+                    label {
+                        margin-left: 5px;
+                        margin-bottom: 0;
+                    }
+                }
+
+                a {
+                    color: black;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                input {
+                    padding: 10px 40px;
+                    width: auto;
+                }
+
+            }
+        }
+
+        .register-link {
+            margin-top: 10px;
+
+            h3 {
+                padding: 10px 0;
+            }
+
+            a {
+                display: block;
+                width: 100%;
+                border: 1px solid silver;
+                padding: 10px 0;
+                text-align: center;
+                border-radius: 50px;
+                color: black;
+                font-weight: bold;
+                background-color: white;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+
+// ======================================
+
+.accounts-user {
+    background-color: #08c557;
+    min-height: 100%;
+
+
+    .intro-accounts-user {
+        width: 1024px;
+        background-color: white;
+        margin: 0 auto;
+        display: flex;
+
+        .navbar {
+            min-width: 260px;
+            background-color: rgb(36, 36, 36);
+
+            .avatar {
+                padding: 20px 0;
+                text-align: center;
+            }
+
+            .nav-list {
+                list-style: none;
+                border-top: 1px solid #333;
+                
+                li {
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        padding: 20px;
+                        width: 100%;
+                        display: block;
+                        color: silver;
+                        border-bottom: 1px solid #333;
+                        
+                        span {
+                            margin-left: 10px;
+                        }
+                    }
+                }
+
+                .active {
+                    border-left: 5px solid white;
+                }
+            }
+        }
+        // ========================================
+
+        .account-page {
+            width: 100%;
+            padding: 20px;
+
+            .heading {
+                padding: 20px 0;
+
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+
+
+            // account username
+
+            .user-body {
+                padding: 20px 0;
+
+                .profile-name {
+                    list-style: none;
+                    margin-top: 20px;
+
+                    li {
+                        border-bottom: 1px solid silver;
+                        padding: 20px 0;
+                        display: flex;
+                        justify-content: space-between;
+
+                        .label {
+                            color: dimgray;
+                        }
+                        .value {
+                            font-weight: bold;
+                        }
+                    }
+                    
+                }
+            }
+        }
+
+    }
+}

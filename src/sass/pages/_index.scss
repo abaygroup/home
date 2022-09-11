@@ -1,0 +1,188 @@
+.overview {
+    width: 100%;
+    background-color: #08c557;
+
+    .intro-overview {
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+
+        .poster {
+            min-width: 540px;
+            margin-right: 20px;
+        }
+
+        .heading {
+            margin-left: 20px;
+            margin-top: 50px;
+            min-width: 520px;
+
+            h1 {
+                font-size: 4rem;
+                font-weight: 900;
+                line-height: 1;
+            }
+
+            p {
+                margin-top: 10px;
+            }
+
+            .link-get-started {
+                display: inline-block;
+                padding: 10px 40px;
+                border-radius: 50px;
+                color: black;
+                font-size: 16px;
+                background-color: white;
+                font-weight: bold;
+                margin-top: 20px;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+        
+    }
+}
+// ======================================
+
+.advantages {
+    width: 100%;
+    
+    .intro-advantages {
+        padding: 50px 0;
+        width: 1024px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+
+        .advantages-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .advantages-item {
+                width: 240px;
+                text-align: center;
+
+                .picture {
+                    font-size: 64px;
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #08c557;
+                }
+                
+                h3 {
+                    margin-top: 20px;
+                }
+                p {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+// ==============================
+
+.free {
+    width: 100%;
+    background-color: #08c557;
+
+    .intro-free {
+        width: 1024px;
+        padding: 100px 0;
+        margin: 0 auto;
+
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+    }
+}
+
+// =======================================
+
+.questions {
+
+    .intro-questions {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 50px 0;
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+
+        .questions-list {
+            padding-bottom: 50px;
+            
+            ul {
+                list-style: none;
+
+                li {
+                    padding: 20px 0;
+                    font-size: 20px;
+                    font-weight: 800;
+                    border-bottom: 1px solid silver;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// =================================================
+
+.get-started {
+    width: 100%;
+    background-color: #08c557;
+
+    .intro-get-started {
+        width: 1024px;
+        margin: 0 auto;
+        padding: 100px 0;
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 800;
+            padding-bottom: 20px;
+        }
+
+        .link-get-started {
+            display: inline-block;
+            padding: 10px 40px;
+            border-radius: 50px;
+            color: black;
+            font-size: 16px;
+            background-color: white;
+            font-weight: bold;
+            margin-top: 20px;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
